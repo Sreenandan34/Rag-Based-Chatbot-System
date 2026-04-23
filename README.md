@@ -28,9 +28,6 @@ User Query → Embedding → Vector Search (ChromaDB) → Context Retrieval → 
 - Queries fetch top relevant chunks
 - LLM generates human-like answers
 
-## 📸 Demo
-(Add screenshots here)
-
 ## 💡 Key Highlights
 - Built a complete RAG pipeline from scratch
 - Implemented asynchronous processing for scalability
