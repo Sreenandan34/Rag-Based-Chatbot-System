@@ -33,3 +33,13 @@ User Query → Embedding → Vector Search (ChromaDB) → Context Retrieval → 
 - Implemented asynchronous processing for scalability
 - Optimized retrieval for faster responses
 - Designed modular architecture
+
+##Commands for installation and starting in it
+rm -rf venv && python3 -m venv venv && source venv/bin/activate && \
+pip install --upgrade pip && \
+pip install "numpy<2" torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 && \
+pip install sentence-transformers==2.6.1 streamlit chromadb langchain openai tiktoken && \
+streamlit run app.py
+
+
+
